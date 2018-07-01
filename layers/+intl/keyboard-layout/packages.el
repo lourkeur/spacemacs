@@ -42,6 +42,8 @@
     (spacemacs|use-package-add-hook ace-window :post-init BODY)
     :bepo
     (setq aw-keys '(?a ?u ?i ?e ?t ?s ?r ?n))
+    :workman
+    (setq aw-keys '(?a ?s ?h ?t ?n ?e ?o ?i))
     :dvorak
     (setq aw-keys '(?a ?o ?e ?u ?h ?t ?n ?s))))
 
@@ -53,6 +55,8 @@
     (spacemacs|use-package-add-hook avy :post-init BODY)
     :bepo
     (setq-default avy-keys '(?a ?u ?i ?e ?t ?s ?r ?n))
+    :workman
+    (setq-default avy-keys '(?a ?s ?h ?t ?n ?e ?o ?i))
     :dvorak
     (setq-default avy-keys '(?a ?o ?e ?u ?h ?t ?n ?s))))
 

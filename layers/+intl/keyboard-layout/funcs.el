@@ -131,9 +131,7 @@ evil states, except insert."
 ;;------------------------------------------------------------------------------
 
 (defun kl/correct-keys (map &rest keys)
-  (declare (indent 1))
-  (let ((bindings (mapcan #'kl//guess-rebindings keys)))
-    (kl//remap-key-as map (remove-if #'null bindings))))
+  )
 
 (defun kl/evil-correct-keys (state map &rest keys)
   (declare (indent 2))
